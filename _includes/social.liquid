@@ -93,6 +93,6 @@
     {% when 'zotero_username' %}
       <a href="https://www.zotero.org/{{ social[1] }}" title="Zotero"><i class="ai ai-zotero"></i></a>
     {% else %}
-      <a href="{{ social[1].url }}" title="{{ social[1].title }}">{{ social[1].title }}</a>
+      <a href="{{ social[1].url }}" title="{{ social[1].title }}" style="color: black;">{{ social[1].title }}</a>
   {% endcase %}
 {% endfor %}
