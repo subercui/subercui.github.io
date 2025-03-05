@@ -24,6 +24,13 @@ last_updated: false # set to true if you want to display last updated in the foo
 impressum_path: # optional path for impressum (if needed)
 back_to_top: true # set to false to disable the back to top button
 
+excludes:
+  - _pages/blog.md
+  - _posts/
+  - _projects/?_project.md
+  - assets/jupyter/blog.ipynb
+  # - _news/announcement_*.md
+
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
