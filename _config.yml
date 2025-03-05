@@ -2,46 +2,42 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
+title: Haotian Cui, Ph.D. # the website title
+first_name: Haotian
+middle_name: 
+last_name: Cui
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  You can reach me via email at ht.cui@mail.utoronto.ca.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Building the virtual cell. AI and machine learning researcher focused on genomics, drug discovery, and single-cell omics.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
-lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+keywords: Foundation model, Machine Learning, Genomics, Drug Discovery
+lang: en # the language of your site
+icon: ⚛️ # the emoji used as the favicon
 
-url: https://subercui.github.io # the base hostname & protocol for your site
+url: https://subercui.github.io # your GitHub Pages site URL
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: false # set to true if you want to display last updated in the footer
-impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
+impressum_path: # optional path for impressum (if needed)
 back_to_top: true # set to false to disable the back to top button
 
 # -----------------------------------------------------------------------------
 # Theme
 # -----------------------------------------------------------------------------
 
-# repo color theme
-repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
-repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
+repo_theme_light: default
+repo_theme_dark: dark
 repo_trophies:
   enabled: true
-  theme_light: flat # https://github.com/ryo-ma/github-profile-trophy
-  theme_dark: gitdimmed # https://github.com/ryo-ma/github-profile-trophy
+  theme_light: flat
+  theme_dark: gitdimmed
 
 # -----------------------------------------------------------------------------
 # RSS Feed
 # -----------------------------------------------------------------------------
-# will use title and url fields
-# Take a look to https://github.com/jekyll/jekyll-feed for more customization
-
 rss_icon: true
 
 # -----------------------------------------------------------------------------
@@ -86,13 +82,11 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
-
 blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_description: AI and Machine Learning Researcher in Genomics and Drug Discovery
 permalink: /blog/:year/:title/
-lsi: false # produce an index for related posts
+lsi: false
 
-# Pagination
 pagination:
   enabled: true
 
@@ -264,9 +258,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Einstein]
-  first_name: [Albert, A.]
-
+  last_name: [Cui]
+  first_name: [Haotian]
   style: apa
   locale: en
 
