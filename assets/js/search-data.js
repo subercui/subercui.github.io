@@ -63,7 +63,7 @@ ninja.data = [{
         title: 'Custom_social',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/Haotian_Cui_CV.pdf", "_blank");
+          window.open("/assets/pdf/Haotian_Cui_CV.pdf", "_blank");
         },
       },{
       id: 'light-theme',
