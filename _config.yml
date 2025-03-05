@@ -7,7 +7,7 @@ first_name: Haotian
 middle_name: 
 last_name: Cui
 contact_note: >
-  You can reach me via email at ht.cui@mail.utoronto.ca.
+  You can reach me via email at <a href="mailto:subercui@gmail.com">subercui@gmail.com</a>.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Building the virtual cell. AI and machine learning researcher focused on genomics, drug discovery, and single-cell omics.
 footer_text: >
